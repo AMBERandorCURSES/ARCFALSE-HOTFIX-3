@@ -1,6 +1,5 @@
-.\external\script\start.lua:1401: chars\one/Normals.cns:4187:
-100*(parent, (MAP(P4)+20),7
-damage: Missing ')' before ,
+.\external\script\start.lua:1401: ./chars/one/ONE.cmd:173:
+Invalid data: \
 stack traceback:
 	[G]: in function 'game'
 	.\external\script\start.lua:1401: in function 'f_game'
