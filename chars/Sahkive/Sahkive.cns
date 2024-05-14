@@ -278,6 +278,20 @@ map 		= "Ex2S_Used"
 value 		= 0
 ignorehitpause 	= 1
 persistent	= 1
+[State 0, EX Limiter]
+type 		= MapSet
+trigger1 	= !map(ComboStateCheck)
+map 		= "Ex5S_Used"
+value 		= 0
+ignorehitpause 	= 1
+persistent	= 1
+[State 0, EX Limiter]
+type 		= MapSet
+trigger1 	= !map(ComboStateCheck)
+map 		= "Ex6S_Used"
+value 		= 0
+ignorehitpause 	= 1
+persistent	= 1
 
 [State -2, Splat Value Set]
 type 		= MapSet

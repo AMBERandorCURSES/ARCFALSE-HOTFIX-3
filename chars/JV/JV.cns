@@ -320,6 +320,21 @@ type = MapSet
 trigger1 = enemy, movetype != H
 map = "EX6S_Limiter"
 value = 0
+[State SP, MapSet]
+type = MapSet
+trigger1 = enemy, movetype != H
+map = "EX2S_Limiter"
+value = 0
+[State SP, MapSet]
+type = MapSet
+trigger1 = enemy, movetype != H
+map = "EX5S_Limiter"
+value = 0
+[State SP, MapSet]
+type = MapSet
+trigger1 = enemy, movetype != H
+map = "EXjS_Limiter"
+value = 0
 
 ;=============================================+
 ;Palette Stuff

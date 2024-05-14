@@ -938,7 +938,7 @@ persistent = 1
 trigger1 = time = 0
 type = posadd
 x = p2dist x - 90
-y = p2dist y + 20
+y = p2dist y + 70
 
 
 [State 630, 2]
@@ -1002,8 +1002,8 @@ trigger1 = enemy,HitShakeOver = 0
 scale = 1.2
 lag = 0
 stagebound = 1
-camerabound = 0
-pos = 60,-60
+camerabound = 1
+pos = 0,-45
 ignorehitpause=1
 
 [State 0, ChangeState]

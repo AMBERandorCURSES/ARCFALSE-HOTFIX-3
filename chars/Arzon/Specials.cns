@@ -1102,6 +1102,15 @@ type = NotHitBy
 trigger1 = 1
 value = SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 time = 999
+
+[State 0,	MapSet]
+type 		= rootMapSet
+trigger1		= movehit && root, map(ComboStateCheck)
+map 		= "EX4SLimiter"
+value 		= 1
+ignorehitpause 	= 1
+persistent 		= 0
+
  ;============================
 [State -2, Starter Level]
 type         = ParentMapSet
@@ -4024,7 +4033,7 @@ sprpriority = 2
 
 [State 0,	MapSet]
 type 		= MapSet
-trigger1		= !time && map(ComboStateCheck)
+trigger1	= !time && map(ComboStateCheck)
 map 		= "EX6SLimiter"
 value 		= 1
 ignorehitpause 	= 1
@@ -4706,6 +4715,15 @@ ctrl = 0
 poweradd = -1000
 anim =1110
 sprpriority = 2
+
+[State 0,	MapSet]
+type 		= MapSet
+trigger1		= !time && map(ComboStateCheck)
+map 		= "EXj6SLimiter"
+value 		= 1
+ignorehitpause 	= 1
+persistent 		= 0
+
 
 [State 0, VelAdd]
 type = Velset

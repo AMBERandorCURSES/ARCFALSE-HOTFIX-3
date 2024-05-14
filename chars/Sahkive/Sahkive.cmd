@@ -137,7 +137,7 @@ trigger2 = stateno = 510 && animelemno(0) >= 5
 [State -1, EX 6S: Quake Drop]
 type = ChangeState
 value = 1030
-triggerall = power>1000
+triggerall = power>1000 && !map(EX6S_Used)
 triggerall = (command = "b" && command = "c") && command = "holdfwd" || (command = "EX" && command = "holdfwd") && teammode != Tag
 triggerall = statetype != A
 trigger1 = ctrl
@@ -183,7 +183,7 @@ trigger3 = stateno = [300, 305] || stateno = [100, 105]
 [State -1, 2EX: Malevolent Thrash]
 type = ChangeState
 value = 1035
-triggerall = power>1000
+triggerall = power>1000 && !map(EX2S_Used)
 triggerall = (command = "b" && command = "c") && command = "holddown" || (command = "EX" && command = "holddown") && teammode != Tag
 triggerall = statetype != A
 trigger1 = ctrl
@@ -203,7 +203,7 @@ trigger3 = stateno = [300, 305] || stateno = [100, 105]
 [State -1, EX 5S]
 type = ChangeState
 value = 1014
-triggerall = power>1000
+triggerall = power>1000 && !map(EX5S_Used)
 triggerall = (command = "b" && command = "c") || command = "EX" && teammode != Tag
 triggerall = command != "holdfwd"
 triggerall = command != "holddown"
